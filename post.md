@@ -51,7 +51,7 @@ Another important/convient step, is to enable `Auto Attach`. You can toggle this
 
 This will allow you to toggle the debugger screen automatically once we execute our `node --inspect-brk` command.
 
-### Sample Project to Debug Against
+### Setup Project to Debug Against
 
 Alright, so we'll need a sample project to have Webpack bundle up for us. It's quite simple, go ahead and setup another folder outside of the forked Webpack project folder.
 
@@ -73,10 +73,10 @@ This will trigger the debugger window and will break on the first line. You can 
 
 ![alt text](/assets/node_debug_vscode.png "Debug VS Code")
 
-### That's it!
+### That's it! ✅
 
 Go ahead and play around! If you want to do more elaborate Webpack config debug, just pass a `webpack.config.js` from your sample project like this:
 
 `node --inspect-brk bin/webpack.js --config ./webpack.config.js`
 
-Feel free to leave a comment below if you have any questions or any of these steps don't work for your setup.
+Feel free to leave a comment below if you have any questions or any of these steps don't work for your setup 💯
